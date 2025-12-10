@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUZZ LABO - Instagram分析ツール</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="img/logo/buzzlabo.png" alt="BUZZ LABO" class="logo-img">
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about" class="nav-link">BUZZLABについて</a></li>
+                    <li class="nav-item"><a href="#pricing" class="nav-link">料金</a></li>
+                    <li class="nav-item"><a href="#cases" class="nav-link">活用事例</a></li>
+                    <li class="nav-item"><a href="#faq" class="nav-link">よくある質問</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a href="https://app.buzzlabo.com/register" class="btn btn-primary">14日間無料で分析を始める</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-background">
+                <img src="img/buzzlaboトップ背景.png" alt="" class="hero-bg-image">
+            </div>
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Instagram に<br>伸びる・当たる運用を</h1>
+                    <p class="hero-description">
+                        投稿分析がカンタンに・伸びる投稿を自動提案・業界トレンドから逆算<br>
+                        フリーランス・運用代行・スモールビジネスに特化したInstagram分析ツール
+                    </p>
+                    <div class="hero-cta">
+                        <a href="https://app.buzzlabo.com/register" class="btn btn-primary btn-large">14日間無料で分析を始める</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="img/screenshot/dashboard.png" alt="BUZZ LABO ダッシュボード" class="dashboard-screenshot">
+                </div>
+            </div>
+        </section>
+
+        <!-- Problems Section -->
+        <section class="problems" id="problems">
+            <div class="problems-container">
+                <h2 class="problems-title">こんな運用の悩み、ありませんか?</h2>
+                <p class="problems-description">
+                    伸びた理由が分からない、レポートに時間を取られる、ネタが尽きる。BUZZLABO(バズラボ)はデータで可視化し、勝ちパターンと次の一手を提案します。
+                </p>
+                <div class="problems-grid">
+                    <div class="problem-card">
+                        <div class="problem-image">
+                            <img src="img/illustrations/1.png" alt="伸びない理由がナゾ" class="problem-illustration">
+                        </div>
+                        <h3 class="problem-heading">伸びない理由がナゾ</h3>
+                        <p class="problem-text">当たった理由も外れた理由もわからなくて、伸びた理由も伸びない理由もよくわからない</p>
+                    </div>
+                    <div class="problem-card">
+                        <div class="problem-image">
+                            <img src="img/illustrations/2.png" alt="レポートに時間がかかる" class="problem-illustration">
+                        </div>
+                        <h3 class="problem-heading">レポートに時間がかかる</h3>
+                        <p class="problem-text">レポートに時間がかかってしまい、レポート作りばかりに追われて企画が作れない</p>
+                    </div>
+                    <div class="problem-card">
+                        <div class="problem-image">
+                            <img src="img/illustrations/3.png" alt="投稿ネタが見つからない" class="problem-illustration">
+                        </div>
+                        <h3 class="problem-heading">投稿ネタが見つからない</h3>
+                        <p class="problem-text">効果的な投稿やフォーマットが見つからないし、ネタも見つからなくて、投稿が途切れがち</p>
+                    </div>
+                    <div class="problem-card">
+                        <div class="problem-image">
+                            <img src="img/illustrations/4.png" alt="いつ落ちるか、不安" class="problem-illustration">
+                        </div>
+                        <h3 class="problem-heading">いつ落ちるか、不安</h3>
+                        <p class="problem-text">なぜ伸びたのかがわからないから、今は伸びてるけど、いつ落ちていってしまうか不安</p>
+                    </div>
+                    <div class="problem-card">
+                        <div class="problem-image">
+                            <img src="img/illustrations/5.png" alt="人が足りなくて回らない" class="problem-illustration">
+                        </div>
+                        <h3 class="problem-heading">人が足りなくて回らない</h3>
+                        <p class="problem-text">属人性が高い運用だから、なかなか引き継げず、人が足りないし、同時運用も多く、回らない</p>
+                    </div>
+                    <div class="problem-card">
+                        <div class="problem-image">
+                            <img src="img/illustrations/6.png" alt="トレンドに追いつけない" class="problem-illustration">
+                        </div>
+                        <h3 class="problem-heading">トレンドに追いつけない</h3>
+                        <p class="problem-text">最新のトレンドに追いつけなくて、リポストも伸びなくなってきている</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials" id="testimonials">
+            <div class="testimonials-container">
+                <div class="testimonials-header">
+                    <div class="testimonials-quote-icon"></div>
+                    <div class="testimonials-header-text">
+                        <h2 class="testimonials-title">
+                            <span class="testimonials-title-brand">BuzzLab</span>は<span class="testimonials-title-highlight">こんな方にオススメ</span>
+                        </h2>
+                        <p class="testimonials-subtitle">個人運用者・運用代理点の方に特化したInstagramツール</p>
+                    </div>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <h3 class="testimonial-card-title">個人フリーランス</h3>
+                        <div class="testimonial-content">
+                            <div class="testimonial-quote-icon-small"></div>
+                            <p class="testimonial-text">
+                                自分のアカウントの投稿の中で何が伸びたのかが一発で分かるから嬉しい! 数値とかも比較できるから今後の投稿に生かしやすいし、伸びたものの共通点が見つけやすい!
+                            </p>
+                            <div class="testimonial-author">
+                                <p class="testimonial-name">佐藤彩香 様</p>
+                                <p class="testimonial-role">フリーランスSNSマーケター</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <h3 class="testimonial-card-title">運用代行の担当者</h3>
+                        <div class="testimonial-content">
+                            <div class="testimonial-quote-icon-small"></div>
+                            <p class="testimonial-text">
+                                クライアント別に、今の数値と競合数値との差分が一目で共有できるので、ミーティングがすごく捗ります! 週次レポートは自動出力されるので、作業時間も短くて済んで、企画に時間が割けるし、クライアントの満足度も高いです!
+                            </p>
+                            <div class="testimonial-author">
+                                <p class="testimonial-name">山本亮様</p>
+                                <p class="testimonial-role">株式会社ブルーム | アカウントプランナー</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <h3 class="testimonial-card-title">スモールビジネスオーナー</h3>
+                        <div class="testimonial-content">
+                            <div class="testimonial-quote-icon-small"></div>
+                            <p class="testimonial-text">
+                                昨日の「伸びた理由」が3分で把握できているのですごく助かってます! 次の投稿ネタもすぐ決まるので、迷わずに来店や予約につながる運用に集中できてます!
+                            </p>
+                            <div class="testimonial-author">
+                                <p class="testimonial-name">川村美咲様</p>
+                                <p class="testimonial-role">Cafe Minori | オーナー兼店長</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <div class="features-container">
+                <div class="features-header">
+                    <h2 class="features-title">直感的で使いやすいインターフェース</h2>
+                    <p class="features-subtitle">結果に直結する機能で、Instagram運用の課題を根本から解決</p>
+                </div>
+                
+                <div class="feature-item">
+                    <div class="feature-content">
+                        <h3 class="feature-item-title">インサイト分析で<br>伸びる投稿を即座に判定</h3>
+                        <p class="feature-item-description">
+                            投稿の反応をリアルタイムで可視化。エンゲージメント率、リーチ数、フォロワー増加率を即座に確認できます。
+                        </p>
+                    </div>
+                    <div class="feature-image">
+                        <img src="img/screenshot/feed.png" alt="インサイト分析" class="feature-screenshot">
+                    </div>
+                </div>
+
+                <div class="feature-item feature-item-reverse">
+                    <div class="feature-content">
+                        <h3 class="feature-item-title">競合ベンチマークで<br>最新トレンドを追っかけ</h3>
+                        <p class="feature-item-description">
+                            同業アカウントの動向と自社の差分を比較。投稿頻度や反応指標のギャップを可視化し、優先すべき改善ポイントを把握できます。
+                        </p>
+                    </div>
+                    <div class="feature-image">
+                        <img src="img/screenshot/competitor.png" alt="競合ベンチマーク" class="feature-screenshot">
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-content">
+                        <h3 class="feature-item-title">リアルタイム分析<br>自動レポート出力</h3>
+                        <p class="feature-item-description">
+                            上司への報告資料をワンクリックで自動生成。競合分析や業界トレンドまで含まれます。
+                        </p>
+                    </div>
+                    <div class="feature-image">
+                        <img src="img/screenshot/report.png" alt="自動レポート出力" class="feature-screenshot">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing" id="pricing">
+            <div class="pricing-container">
+                <div class="pricing-header">
+                    <h2 class="pricing-title">シンプルで分かりやすい料金体系</h2>
+                    <p class="pricing-subtitle">あなたのビジネス規模に合わせた最適なプランをお選びいただけます。</p>
+                </div>
+                <div class="pricing-grid">
+                    <!-- Free Plan -->
+                    <div class="pricing-card">
+                        <h3 class="pricing-card-title">Free</h3>
+                        <div class="pricing-card-price">
+                            <span class="pricing-price-amount">¥0</span>
+                            <span class="pricing-price-period">/month</span>
+                        </div>
+                        <p class="pricing-card-description">まず"伸びた理由"を掴む<br>個人・検証用</p>
+                        <ul class="pricing-features">
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>連携アカウント: 1アカウント</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>取得履歴: 直近30日</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>A/B分析: 月5件</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>勝ちパターン保存: 3件</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>競合トラッキング: 1アカウント</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>メンバー数: 1名</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>共有レポート: PDF</span>
+                            </li>
+                        </ul>
+                        <a href="https://app.buzzlabo.com/register" class="btn btn-pricing btn-outline">無料で始める</a>
+                    </div>
+
+                    <!-- Growth Plan (Highlighted) -->
+                    <div class="pricing-card pricing-card-featured">
+                        <h3 class="pricing-card-title">Growth</h3>
+                        <div class="pricing-card-price">
+                            <span class="pricing-price-amount">¥2,980</span>
+                            <span class="pricing-price-period">/month</span>
+                        </div>
+                        <p class="pricing-card-description">勝ちパターンを固定化して再現<br>個人事業・小チーム向け</p>
+                        <ul class="pricing-features">
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>連携アカウント: 5アカウント</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>取得履歴: 無制限</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>A/B分析: 無制限</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>勝ちパターン保存: 30投稿</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>競合トラッキング: 5件</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>メンバー数: 3名</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>共有レポート: PDF・CSV・スライド</span>
+                            </li>
+                        </ul>
+                        <a href="https://app.buzzlabo.com/register" class="btn btn-pricing btn-featured">14日間無料で試す</a>
+                    </div>
+
+                    <!-- Agency Plan -->
+                    <div class="pricing-card">
+                        <h3 class="pricing-card-title">Agency</h3>
+                        <div class="pricing-card-price">
+                            <span class="pricing-price-amount">¥9,800</span>
+                            <span class="pricing-price-period">/month</span>
+                        </div>
+                        <p class="pricing-card-description">複数ブランドを一括して最適化<br>代理店・多店舗運用向け</p>
+                        <ul class="pricing-features">
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>連携アカウント: 20アカウント (拡張可)</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>取得履歴: 無制限</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>A/B分析: 無制限</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>勝ちパターン保存: 無制限</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>競合トラッキング: 無制限</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>メンバー数: 無制限</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>共有レポート: PDF・CSV・スライド</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>カスタムダッシュボード: 複数作成可能</span>
+                            </li>
+                        </ul>
+                        <a href="#demo" class="btn btn-pricing btn-outline btn-demo">
+                            <span class="btn-demo-icon">▶</span>
+                            デモをチェック
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta" id="cta">
+            <div class="cta-background">
+                <img src="img/buzzlaboトップ背景.png" alt="" class="cta-bg-image">
+            </div>
+            <div class="cta-container">
+                <div class="cta-content">
+                    <h2 class="cta-title">"伸びる投稿"がわずか5分で分かる。</h2>
+                    <p class="cta-description">
+                        伸びる投稿・新たな投稿ネタ・業界トレンドが見える化<br>
+                        14日間無料で試せます。
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="https://app.buzzlabo.com/register" class="btn btn-primary btn-large">14日間無料で分析を始める</a>
+                        <a href="#demo" class="btn btn-cta-outline">デモをチェック</a>
+                    </div>
+                    <p class="cta-note">カード登録不要で、すぐにスタートできます。</p>
+                </div>
+                <div class="cta-image">
+                    <img src="img/screenshot/dashboard.png" alt="BUZZ LABO ダッシュボード" class="cta-screenshot">
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section class="benefits" id="benefits">
+            <div class="benefits-container">
+                <div class="benefits-header">
+                    <h2 class="benefits-title">なぜ伸びてるのか、が気になったら</h2>
+                    <p class="benefits-subtitle">登録から初回レポートまで、約5分で分析完了</p>
+                </div>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-number">1</div>
+                        <h3 class="benefit-card-title">無料でスタートできる</h3>
+                        <p class="benefit-card-description">
+                            14日間、主要機能を0円で体験できます。カード登録は不要。分析したアカウントデータは、本契約後も引き継がれます。
+                        </p>
+                        <div class="benefit-image">
+                            <img src="img/photo/ビジネスマン.jpg" alt="無料でスタートできる" class="benefit-img">
+                        </div>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-number">2</div>
+                        <h3 class="benefit-card-title">いつでもキャンセルOK</h3>
+                        <p class="benefit-card-description">
+                            管理画面から1クリックで解約できます。次回以降の請求は発生しません。解約後、14日間は同じアカウントで即時、利用開始できます。
+                        </p>
+                        <div class="benefit-image">
+                            <img src="img/photo/財布を開いている.jpg" alt="いつでもキャンセルOK" class="benefit-img">
+                        </div>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-number">3</div>
+                        <h3 class="benefit-card-title">使いやすいデザイン</h3>
+                        <p class="benefit-card-description">
+                            伸び率・リーチ・保存などの重要指標を1つの画面に集約。A/Bや競合との差分もテンプレートに沿って、初心者でもすぐに分析できます。
+                        </p>
+                        <div class="benefit-image">
+                            <img src="img/screenshot/dashboard.png" alt="使いやすいデザイン" class="benefit-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Support Section -->
+        <section class="support" id="support">
+            <div class="support-container">
+                <div class="support-header">
+                    <h2 class="support-title">サポートも完備</h2>
+                    <p class="support-subtitle">Instagram運用を軌道に乗せるための伴走体制</p>
+                    <p class="support-condition">(Growthプラン以上をご契約の方限定)</p>
+                </div>
+                <div class="support-grid">
+                    <div class="support-card">
+                        <div class="support-image">
+                            <img src="img/illustrations/7.png" alt="導入サポート" class="support-illustration">
+                        </div>
+                        <h3 class="support-card-title">導入サポート</h3>
+                        <p class="support-card-description">
+                            専任担当が1on1で初期設定を伴走<br>
+                            目標に合わせて使い方を最適化
+                        </p>
+                    </div>
+                    <div class="support-card">
+                        <div class="support-image">
+                            <img src="img/illustrations/8.png" alt="継続サポート" class="support-illustration">
+                        </div>
+                        <h3 class="support-card-title">継続サポート</h3>
+                        <p class="support-card-description">
+                            24時間対応のチャットサポート<br>
+                            運用のつまずきも、すぐに解決
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Success Stories Section -->
+        <section class="success-stories" id="success-stories">
+            <div class="success-stories-container">
+                <div class="success-stories-header">
+                    <h2 class="success-stories-title">導入企業様の実績</h2>
+                    <p class="success-stories-subtitle">BuzzLab導入企業様が達成した驚きの成果をご覧ください。</p>
+                </div>
+                <div class="success-stories-grid">
+                    <div class="success-story-card">
+                        <div class="success-story-profile">
+                            <img src="img/photo/profile1.jpg" alt="西條 早紀様" class="success-story-avatar" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                            <div class="success-story-avatar-placeholder" style="display:none;">西</div>
+                        </div>
+                        <div class="success-story-info">
+                            <p class="success-story-name">西條 早紀様</p>
+                            <p class="success-story-role">化粧品ECマーケティング責任者</p>
+                        </div>
+                        <h3 class="success-story-headline">"伸びた理由"が分かると 次の一手が速くなる (売上+53%)</h3>
+                        <p class="success-story-description">
+                            投稿の貢献度が見える化され、勝ちパターンが明確になりました。Instagram経由の売上が+53%向上。レポート作成時間も5時間から30分に短縮され、意思決定の質も向上しています。
+                        </p>
+                        <div class="success-story-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                    <div class="success-story-card">
+                        <div class="success-story-profile">
+                            <img src="img/photo/profile2.jpg" alt="新藤 智也様" class="success-story-avatar" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                            <div class="success-story-avatar-placeholder" style="display:none;">新</div>
+                        </div>
+                        <div class="success-story-info">
+                            <p class="success-story-name">新藤 智也様</p>
+                            <p class="success-story-role">SNSマーケティング代理店 代表</p>
+                        </div>
+                        <h3 class="success-story-headline">クライアント紹介が増加し 受注率も30%から50%まで伸びた</h3>
+                        <p class="success-story-description">
+                            週次レポート作成が効率化され、A/Bテストや競合分析もワンクリックで出力可能に。クライアントからの評価が向上し、紹介も増加。受注率が30%から50%まで伸びました。
+                        </p>
+                        <div class="success-story-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                    <div class="success-story-card">
+                        <div class="success-story-profile">
+                            <img src="img/photo/profile3.jpg" alt="宮下 由衣様" class="success-story-avatar" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                            <div class="success-story-avatar-placeholder" style="display:none;">宮</div>
+                        </div>
+                        <div class="success-story-info">
+                            <p class="success-story-name">宮下 由衣様</p>
+                            <p class="success-story-role">アパレルショップオーナー</p>
+                        </div>
+                        <h3 class="success-story-headline">"今日は何を投稿する?"が消えて 8ヶ月でフォロワーが2.5倍</h3>
+                        <p class="success-story-description">
+                            SNS知識がなくても、投稿提案と勝ちパターン保存機能で運用が習慣化。8ヶ月でフォロワーが+243%増加。予約やリピーターも増えています。
+                        </p>
+                        <div class="success-story-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section (Second) -->
+        <section class="pricing pricing-second" id="pricing-second">
+            <div class="pricing-container">
+                <div class="pricing-header">
+                    <h2 class="pricing-title">シンプルで分かりやすい料金体系</h2>
+                    <p class="pricing-subtitle">あなたのビジネス規模に合わせた最適なプランをお選びいただけます。</p>
+                </div>
+                <div class="pricing-grid">
+                    <!-- Free Plan -->
+                    <div class="pricing-card">
+                        <h3 class="pricing-card-title">Free</h3>
+                        <div class="pricing-card-price">
+                            <span class="pricing-price-amount">¥0</span>
+                            <span class="pricing-price-period">/month</span>
+                        </div>
+                        <p class="pricing-card-description">まず"伸びた理由"を掴む<br>個人・検証用</p>
+                        <ul class="pricing-features">
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>連携アカウント: 1アカウント</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>取得履歴: 直近30日</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>A/B分析: 月5件</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>勝ちパターン保存: 3件</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>競合トラッキング: 1アカウント</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>メンバー数: 1名</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>共有レポート: PDF</span>
+                            </li>
+                        </ul>
+                        <a href="https://app.buzzlabo.com/register" class="btn btn-pricing btn-outline">無料で始める</a>
+                    </div>
+
+                    <!-- Growth Plan (Highlighted) -->
+                    <div class="pricing-card pricing-card-featured">
+                        <h3 class="pricing-card-title">Growth</h3>
+                        <div class="pricing-card-price">
+                            <span class="pricing-price-amount">¥2,980</span>
+                            <span class="pricing-price-period">/month</span>
+                        </div>
+                        <p class="pricing-card-description">勝ちパターンを固定化して再現<br>個人事業・小チーム向け</p>
+                        <ul class="pricing-features">
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>連携アカウント: 5アカウント</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>取得履歴: 無制限</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>A/B分析: 無制限</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>勝ちパターン保存: 30投稿</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>競合トラッキング: 5件</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>メンバー数: 3名</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>共有レポート: PDF・CSV・スライド</span>
+                            </li>
+                        </ul>
+                        <a href="https://app.buzzlabo.com/register" class="btn btn-pricing btn-featured">14日間無料で試す</a>
+                    </div>
+
+                    <!-- Agency Plan -->
+                    <div class="pricing-card">
+                        <h3 class="pricing-card-title">Agency</h3>
+                        <div class="pricing-card-price">
+                            <span class="pricing-price-amount">¥9,800</span>
+                            <span class="pricing-price-period">/month</span>
+                        </div>
+                        <p class="pricing-card-description">複数ブランドを一括して最適化<br>代理店・多店舗運用向け</p>
+                        <ul class="pricing-features">
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>連携アカウント: 20アカウント (拡張可)</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>取得履歴: 無制限</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>A/B分析: 無制限</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>勝ちパターン保存: 無制限</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>競合トラッキング: 無制限</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>メンバー数: 無制限</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>共有レポート: PDF・CSV・スライド</span>
+                            </li>
+                            <li class="pricing-feature">
+                                <span class="pricing-checkmark">✓</span>
+                                <span>カスタムダッシュボード: 複数作成可能</span>
+                            </li>
+                        </ul>
+                        <a href="#demo" class="btn btn-pricing btn-outline btn-demo">
+                            <span class="btn-demo-icon">▶</span>
+                            デモをチェック
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq" id="faq">
+            <div class="faq-container">
+                <div class="faq-header">
+                    <h2 class="faq-title">よくある質問</h2>
+                    <p class="faq-subtitle">お客様からよくいただく質問にお答えします</p>
+                </div>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 class="faq-question-text">無料トライアルでは、何が使えますか?</h3>
+                            <span class="faq-toggle">×</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Growthプランを14日間、料金・カード登録なしでお試しいただけます。14日経過後は自動でFreeプランに切り替わり、自動課金は発生しません。</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 class="faq-question-text">はじめ方を教えてください</h3>
+                            <span class="faq-toggle">×</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>1) アカウント作成 → 2) Instagram連携 → 3) 「サンプルレポート作成」をクリック。この3ステップで、約1分で初回レポートが生成されます。次に「伸びた投稿・外れた投稿の要因」を確認し、同じタイプの投稿を1つ作成すると、最短で結果が出ます。</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 class="faq-question-text">どのプランを選べば良いですか?</h3>
+                            <span class="faq-toggle">×</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>分析に慣れたい・使い勝手を確認したい方: Free<br>
+                            再現性を作りたい・小チームで運用したい方: Growth<br>
+                            複数ブランドの運用を管理したい方: Agency<br>
+                            迷ったら、Growthプランを14日間無料でお試しいただくことをおすすめします。管理画面からワンクリックでプラン変更・解約も可能です。</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 class="faq-question-text">解約やプラン変更は簡単にできますか?</h3>
+                            <span class="faq-toggle">×</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>管理画面から【設定 → プラン】をクリックし、「プラン解約・変更」からワンクリックで簡単にできます。解約の場合、次回以降の請求は停止され、アカウント情報は14日間保存されるため、いつでも再開可能です。</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 class="faq-question-text">パスワードは渡すんですか?安全性は大丈夫ですか?</h3>
+                            <span class="faq-toggle">×</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Instagramの公式API経由でデータを読み取るのみで、ツール側でパスワードを保存することはありません。通信も暗号化されているため、機密情報の漏洩の可能性はありません。</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 class="faq-question-text">アカウント凍結の心配はないですか?</h3>
+                            <span class="faq-toggle">×</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>ツールはInstagramのポリシーに準拠して動作し、Instagramが公式に許可しているAPIを使用しているため、ツール利用によるアカウント凍結の心配はありません。</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 class="faq-question-text">競合の分析は何が見れますか? 競合アカウントは探せますか?</h3>
+                            <span class="faq-toggle">×</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>登録した競合アカウントの投稿頻度・エンゲージメント率・伸びパターンなどのデータを継続的・自動的に取得しています。競合アカウントのデータは数値化され、自社アカウントとの差分を可視化できます。また、業界別のおすすめアカウントから競合アカウントを一括登録できるため、競合アカウントの見つけ方も簡単です。</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 class="faq-question-text">レポートはどういう形式で出力できますか?</h3>
+                            <span class="faq-toggle">×</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>プランによって以下の形式で出力可能です。<br>
+                            Free: PDFのみ<br>
+                            Growth: PDF・Googleスライド・CSV出力<br>
+                            Agency: PDF・Googleスライド・CSV出力（Looker StudioとのAPI連携も可能）</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3 class="faq-question-text">サポートはありますか?</h3>
+                            <span class="faq-toggle">×</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>24時間対応のチャットサポートをご利用いただけます。また、Agencyプランをご契約のお客様は、1on1のミーティングも可能です。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA Section -->
+        <section class="final-cta" id="final-cta">
+            <div class="final-cta-background">
+                <img src="img/buzzlaboトップ背景.png" alt="" class="final-cta-bg-image">
+            </div>
+            <div class="final-cta-container">
+                <div class="final-cta-content">
+                    <h2 class="final-cta-title">"伸びる投稿"が<br>わずか5分で分かる。</h2>
+                    <p class="final-cta-description">
+                        伸びる投稿・新たな投稿ネタ・業界トレンドが見える化<br>
+                        14日間無料で試せます。
+                    </p>
+                    <div class="final-cta-buttons">
+                        <a href="https://app.buzzlabo.com/register" class="btn btn-primary btn-large">14日間無料で分析を始める</a>
+                        <a href="#demo" class="btn btn-cta-outline">デモをチェック</a>
+                    </div>
+                    <p class="final-cta-note">カード登録不要で、すぐにスタートできます。</p>
+                </div>
+                <div class="final-cta-image">
+                    <img src="img/screenshot/dashboard.png" alt="BUZZ LABO ダッシュボード" class="final-cta-screenshot">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="img/logo/buzzlabo.png" alt="BUZZ LABO" class="footer-logo-img">
+            </div>
+            <nav class="footer-nav">
+                <a href="#company" class="footer-link">会社情報</a>
+                <a href="#terms" class="footer-link">利用規約</a>
+                <a href="#commerce" class="footer-link">特定商取引法に基づく表記</a>
+                <a href="#privacy" class="footer-link">プライバシーポリシー</a>
+            </nav>
+            <p class="footer-copyright">© 2025 BUZZLABO. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
