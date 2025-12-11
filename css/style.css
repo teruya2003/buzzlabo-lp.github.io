@@ -821,9 +821,11 @@ body {
 
 .pricing-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 32px;
     align-items: stretch;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .pricing-card {
@@ -844,12 +846,11 @@ body {
 .pricing-card-featured {
     background: linear-gradient(135deg, #EC4899 0%, #8B5CF6 100%);
     color: #fff;
-    transform: scale(1.05);
     box-shadow: 0 8px 32px rgba(236, 72, 153, 0.3);
 }
 
 .pricing-card-featured:hover {
-    transform: scale(1.05) translateY(-4px);
+    transform: translateY(-4px);
     box-shadow: 0 12px 40px rgba(236, 72, 153, 0.4);
 }
 
@@ -1008,10 +1009,6 @@ body {
         gap: 32px;
         max-width: 500px;
         margin: 0 auto;
-    }
-    
-    .pricing-card-featured {
-        transform: scale(1);
     }
     
     .pricing-card-featured:hover {
